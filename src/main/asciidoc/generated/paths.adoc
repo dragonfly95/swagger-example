@@ -1,0 +1,165 @@
+== Paths
+=== errorHtml
+----
+GET /error
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|<<ModelAndView>>
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* text/html
+
+==== Tags
+
+* basic-error-controller
+
+=== errorHtml
+----
+PUT /error
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|<<ModelAndView>>
+|201|Created|No Content
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* text/html
+
+==== Tags
+
+* basic-error-controller
+
+=== errorHtml
+----
+DELETE /error
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|<<ModelAndView>>
+|401|Unauthorized|No Content
+|204|No Content|No Content
+|403|Forbidden|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* text/html
+
+==== Tags
+
+* basic-error-controller
+
+=== errorHtml
+----
+POST /error
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|<<ModelAndView>>
+|201|Created|No Content
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* text/html
+
+==== Tags
+
+* basic-error-controller
+
+=== errorHtml
+----
+PATCH /error
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|<<ModelAndView>>
+|401|Unauthorized|No Content
+|204|No Content|No Content
+|403|Forbidden|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* text/html
+
+==== Tags
+
+* basic-error-controller
+
+=== sayHello
+----
+GET /hello
+----
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|string
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* */*
+
+==== Tags
+
+* hello-controller
+
